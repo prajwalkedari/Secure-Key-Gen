@@ -32,7 +32,7 @@ jobs:
           echo WhoAmI
           whoami
           echo UName
-          UName -a
+          uname -a
           echo Lshw
           lshw
           echo CPU Info
