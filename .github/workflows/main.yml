@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
      - name: Code By Prajwal Kedari & own By Prajwal Kedari
-       run :  echo Thank Prajwal 
-    - name : available On pip Python
-       run : echo pip instal KeyGen-Python
+       run:  echo Thank Prajwal 
+    -  name: available On pip Python
+       run: echo pip instal KeyGen-Python
