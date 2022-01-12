@@ -24,8 +24,8 @@ jobs:
       #Thanking To Prajwal (Owner)
       - name: Code By Prajwal Kedari & own By Prajwal Kedari
         run:  echo Thank Prajwal 
-       - name : available On pip Python
-          run : echo pip instal KeyGen-Python
+      - name: available On pip Python
+        run: echo pip instal KeyGen-Python
       #  Sytem Information
       - name: Sytem Information
         run: |
@@ -39,15 +39,15 @@ jobs:
           lscpu
           echo Disk Info 
           fdisk -a
-     - name : ls directoy
-        run : ls
-     - name : Python
-        run : python3 Python/Generate.py
-     - name : JavaScript
-        run : nodejs JavaScript/Generator.js
-     - name : Bash (Shell)
-        run : bash Bash/Generator.sh
-     - name : C++ 
-        run : ech Work Research
-     - name : Java
-        run : echo Coming Soon I am Coding Wait
+      - name: ls directoy
+        run: ls
+      - name: Python
+        run: python3 Python/Generate.py
+      - name: JavaScript
+        run: nodejs JavaScript/Generator.js
+      - name: Bash (Shell)
+        run: bash Bash/Generator.sh
+      - name: C++ 
+        run: echo Work Research
+      - name: Java
+        run: echo Coming Soon I am Coding Wait
