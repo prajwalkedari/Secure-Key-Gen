@@ -50,4 +50,4 @@ jobs:
       - name: JavaScript
         run: node JavaScript/Generator.js
       - name: happy ending
-        run: echo exit code(0) ❣️successful Code ❣️
+        run: echo "exit code(0) ❣️successful Code ❣️"
