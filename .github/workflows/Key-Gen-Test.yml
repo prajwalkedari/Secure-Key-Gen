@@ -48,6 +48,6 @@ jobs:
       - name: Java
         run: echo Coming Soon I am Coding Wait
       - name: JavaScript
-        run: nodejs JavaScript/Generator.js
+        run: node JavaScript/Generator.js
       - name: happy ending
         run: echo exit code(0) ❣️successful Code ❣️
