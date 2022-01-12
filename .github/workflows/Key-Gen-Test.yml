@@ -37,8 +37,6 @@ jobs:
           lshw
           echo CPU Info
           lscpu
-          echo Disk Info 
-          fdisk 
       - name: ls directoy
         run: ls
       - name: Python
