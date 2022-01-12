@@ -41,11 +41,13 @@ jobs:
         run: ls
       - name: Python
         run: python3 Python/Generate.py
-      - name: JavaScript
-        run: nodejs JavaScript/Generator.js
       - name: Bash (Shell)
         run: bash Bash/Generator.sh
       - name: C++ 
         run: echo Work Research
       - name: Java
         run: echo Coming Soon I am Coding Wait
+      - name: JavaScript
+        run: nodejs JavaScript/Generator.js
+      - name: happy ending
+        run: echo exit code(0) ❣️successful Code ❣️
