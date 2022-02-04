@@ -46,7 +46,7 @@ jobs:
       - name: C++ 
         run: echo Work Research
       - name: Java
-        run: echo Coming Soon I am Coding Wait
+        run: javac Java/Generator.java && java Java/Generator
       - name: JavaScript
         run: node JavaScript/Generator.js
       - name: happy ending
