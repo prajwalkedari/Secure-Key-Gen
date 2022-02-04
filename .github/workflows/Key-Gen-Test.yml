@@ -48,6 +48,7 @@ jobs:
       - name: Java
         run: |
          javac Java/generator.java 
+         set classpath=
          java Java/generator
       - name: JavaScript
         run: node JavaScript/Generator.js
