@@ -47,9 +47,8 @@ jobs:
         run: echo Work Research
       - name: Java
         run: |
-         javac Java/generator.java 
-         set classpath=
-         java Java/generator
+         javac -d . Java/generator.java 
+         java Java/com.secure_key_Java.github
       - name: JavaScript
         run: node JavaScript/Generator.js
       - name: happy ending
