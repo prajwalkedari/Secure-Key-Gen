@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 import java.math.BigInteger;
-public class  Generator{
+public class  generator{
 public static void  main(String arg[]){
 LocalDateTime now = LocalDateTime.now();
 String min   = String.valueOf( now.getMinute()     *2  );
