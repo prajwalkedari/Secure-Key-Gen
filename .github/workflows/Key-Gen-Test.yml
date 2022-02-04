@@ -17,6 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-java@v2
+        with:
+            distribution: 'zulu' # See 'Supported distributions' for available options
+            java-version: '11'
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
       - name: Setup C++
@@ -46,9 +50,7 @@ jobs:
       - name: C++ 
         run: echo Work Research
       - name: Java
-        run: |
-         javac -d . Java/generator.java 
-         java Java/com.secure_key_Java.github
+        run:  javac Java/generator.java  && java -cp java generator
       - name: JavaScript
         run: node JavaScript/Generator.js
       - name: happy ending
