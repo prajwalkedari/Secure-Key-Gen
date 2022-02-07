@@ -1,4 +1,3 @@
-package com.secure_key_Java.github;
 import java.time.LocalDateTime;
 import java.math.BigInteger;
 public class  generator{
