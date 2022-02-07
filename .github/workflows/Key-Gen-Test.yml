@@ -50,7 +50,7 @@ jobs:
       - name: C++ 
         run: echo Work Research
       - name: Java
-        run:  javac Java/generator.java  && java -cp java generator
+        run:  pwd && cd Java && javac generator.java  && java generator && cd - && pwd
       - name: JavaScript
         run: node JavaScript/Generator.js
       - name: happy ending
